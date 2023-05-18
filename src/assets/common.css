@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'DINPro-Black';
+  src: url('./font/DINPro-Black.otf') format('opentype');
+}
+@font-face {
+  font-family: 'DINPro-Bold';
+  src: url('./font/DINPro-Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'DINPro-Light';
+  src: url('./font/DINPro-Light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'DINPro-Medium';
+  src: url('./font/DINPro-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'DINPro-Regular';
+  src: url('./font/DINPro-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'HeadLineA';
+  src: url('./font/HEADOH.ttf') format('opentype');
+}
+body * {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+body {
+  font-family:  DINPro-Medium, DINPro-Light, DINPro-Black, DINPro-Regular,DINPro-Bold,HeadLineA;
+}
+button {
+  margin: 0;
+  padding: 0;
+  border: 1px solid transparent;
+  outline: none;
+  background-color: transparent;
+}
+button:active {
+  opacity: 0.6;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.justify-start {
+  display: flex;
+  justify-content: flex-start;
+}
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+.justify-end {
+  display: flex;
+  justify-content: flex-end;
+}
+.justify-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+.justify-around {
+  display: flex;
+  justify-content: space-around;
+}
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+.align-start {
+  display: flex;
+  align-items: flex-start;
+}
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.align-end {
+  display: flex;
+  align-items: flex-end;
+}
