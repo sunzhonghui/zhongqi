@@ -34,7 +34,7 @@
           </span>
         </div>
         <img
-            class="image_2"
+            class="image_2" @click="scrollToBottom"
             referrerpolicy="no-referrer"
             src="./assets/img/SketchPngf883d2dd53c4eee703bfb858dea4bfcf66008ea4073f202d9be9f451369ebb45.png"
         />
@@ -155,7 +155,7 @@
       referrerpolicy="no-referrer"
       src="./assets/img/SketchPngd6ebe1d088e4073043c1a2563f82f22f05c71cb833d3fb376201b2e9a7041f49.png"
     />
-  <Footer></Footer>
+  <Footer ref="footer"></Footer>
   </div>
 </template>
 <script>
@@ -169,7 +169,12 @@ export default {
       constants: {}
     };
   },
-  methods: {}
+  methods: {
+    scrollToBottom() {
+      console.log(this.$refs.footer.$refs.footer)
+      this.$refs.footer.$refs.footer.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 };
 </script>
 <style scoped lang="css" src="./assets/index.css" />

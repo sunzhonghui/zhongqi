@@ -99,7 +99,7 @@
       </div>
       <div class="section_10 flex-row">
         <div class="group_3 flex-col"></div>
-        <div class="image-wrapper_1 flex-col">
+        <div class="image-wrapper_1 flex-col" @click="scrollToBottom">
           <img
               class="label_3"
               referrerpolicy="no-referrer"
@@ -136,108 +136,112 @@
           <div class="text-wrapper_14 flex-col"><span class="text_31">查看详情</span></div>
         </div>
       </div>
-      <div class="image-text_2 flex-row justify-between">
-        <div class="image-wrapper_3 flex-col">
+      <div class="image-text_1 flex-row justify-between">
+        <div class="image-wrapper_2 flex-col">
           <img
-              class="image_2"
+              class="image_1"
               referrerpolicy="no-referrer"
               src="./assets/img/SketchPng06bc4f678d176608001bfd52d2ab274646fa30a6ad261514ae7a7a5765b8f183.png"
           />
         </div>
-        <div class="box_7 flex-col">
-          <div class="text-group_2 flex-col justify-between">
-            <div class="text-wrapper_15 flex-row justify-between">
-              <span class="text_32">装修小知识：房间里太潮，可以这么做，避免损坏家居</span>
-              <span class="text_33">4-23/2022</span>
+        <div class="box_4 flex-col">
+          <div class="text-group_1 flex-col justify-between">
+            <div class="text-wrapper_12 flex-row justify-between">
+              <span class="text_26">装修小知识：房间里太潮，可以这么做，避免损坏家居</span>
+              <span class="text_27">5-23/2022</span>
             </div>
-            <span class="text_34">
-            每克此术复争知无层进方海感易准区风口选成千次开是即机转土议年证采完阶红间地第布容海须给政决任据市选头先。经种连组最二月风石重论力清县原活张技被四务共电则头只。
+            <span class="text_28">
+            每克此术复争知无层进方海感易准区风口选成千次开是即机转土议年证采完阶红间地第布容海须给政决任据市选头先。经种连组最二月风石重论力清县原活张技被四务共电则属声每时市头只。
           </span>
-            <span class="text_35">知识</span>
+            <div class="text-wrapper_13 flex-row justify-between">
+              <span class="text_29">软装</span>
+              <span class="text_30">知识</span>
+            </div>
           </div>
-          <div class="group_4 flex-col"></div>
-          <div class="text-wrapper_16 flex-col"><span class="text_36">查看详情</span></div>
+          <div class="box_5 flex-col"></div>
+          <div class="box_6 flex-col"></div>
+          <div class="text-wrapper_14 flex-col"><span class="text_31">查看详情</span></div>
         </div>
       </div>
-      <div class="image-text_3 flex-row justify-between">
-        <div class="image-wrapper_4 flex-col">
+      <div class="image-text_1 flex-row justify-between">
+        <div class="image-wrapper_2 flex-col">
           <img
-              class="image_3"
+              class="image_1"
               referrerpolicy="no-referrer"
               src="./assets/img/SketchPng06bc4f678d176608001bfd52d2ab274646fa30a6ad261514ae7a7a5765b8f183.png"
           />
         </div>
-        <div class="block_7 flex-col">
-          <div class="text-group_3 flex-col justify-between">
-            <div class="text-wrapper_17 flex-row justify-between">
-              <span class="text_37">设计篇章：如何能用最少的钱装出最好的效果</span>
-              <span class="text_38">4-11/2022</span>
+        <div class="box_4 flex-col">
+          <div class="text-group_1 flex-col justify-between">
+            <div class="text-wrapper_12 flex-row justify-between">
+              <span class="text_26">装修小知识：房间里太潮，可以这么做，避免损坏家居</span>
+              <span class="text_27">5-23/2022</span>
             </div>
-            <span class="text_39">
-            每克此术复争知无层进方海感易准区风口选成千次开是即机转土议年证采完阶红间地第布容海须给政决任据市选头先。经种连组最二月风石重论力清县原活张技被四务共电吗看过卡高考则属声每时市头只。
+            <span class="text_28">
+            每克此术复争知无层进方海感易准区风口选成千次开是即机转土议年证采完阶红间地第布容海须给政决任据市选头先。经种连组最二月风石重论力清县原活张技被四务共电则属声每时市头只。
           </span>
-            <div class="text-wrapper_18 flex-row justify-between">
-              <span class="text_40">软装</span>
-              <span class="text_41">设计</span>
+            <div class="text-wrapper_13 flex-row justify-between">
+              <span class="text_29">软装</span>
+              <span class="text_30">知识</span>
             </div>
           </div>
-          <div class="section_11 flex-col"></div>
-          <div class="section_12 flex-col"></div>
-          <div class="text-wrapper_19 flex-col"><span class="text_42">查看详情</span></div>
+          <div class="box_5 flex-col"></div>
+          <div class="box_6 flex-col"></div>
+          <div class="text-wrapper_14 flex-col"><span class="text_31">查看详情</span></div>
         </div>
       </div>
-      <div class="image-text_4 flex-row justify-between">
-        <div class="image-wrapper_5 flex-col">
+      <div class="image-text_1 flex-row justify-between">
+        <div class="image-wrapper_2 flex-col">
           <img
-              class="image_4"
+              class="image_1"
               referrerpolicy="no-referrer"
               src="./assets/img/SketchPng06bc4f678d176608001bfd52d2ab274646fa30a6ad261514ae7a7a5765b8f183.png"
           />
         </div>
-        <div class="box_8 flex-col">
-          <div class="text-group_4 flex-col justify-between">
-            <div class="text-wrapper_20 flex-row justify-between">
-              <span class="text_43">设计篇章：如何能用最少的钱装出最好啦啦的效果</span>
-              <span class="text_44">4-11/2022</span>
+        <div class="box_4 flex-col">
+          <div class="text-group_1 flex-col justify-between">
+            <div class="text-wrapper_12 flex-row justify-between">
+              <span class="text_26">装修小知识：房间里太潮，可以这么做，避免损坏家居</span>
+              <span class="text_27">5-23/2022</span>
             </div>
-            <span class="text_45">
-            每克此术复争知无层进方海感易准区风口选成千次开是即机转土议年证采完阶红间地第布容海须给政决任据市选头先。经种连组最二月风石重论力清县原活张技被四务共电吗看过卡高考则属声每时市头只。
+            <span class="text_28">
+            每克此术复争知无层进方海感易准区风口选成千次开是即机转土议年证采完阶红间地第布容海须给政决任据市选头先。经种连组最二月风石重论力清县原活张技被四务共电则属声每时市头只。
           </span>
-            <div class="text-wrapper_21 flex-row justify-between">
-              <span class="text_46">软装</span>
-              <span class="text_47">设计</span>
+            <div class="text-wrapper_13 flex-row justify-between">
+              <span class="text_29">软装</span>
+              <span class="text_30">知识</span>
             </div>
           </div>
-          <div class="group_5 flex-col"></div>
-          <div class="group_6 flex-col"></div>
-          <div class="text-wrapper_22 flex-col"><span class="text_48">查看详情</span></div>
+          <div class="box_5 flex-col"></div>
+          <div class="box_6 flex-col"></div>
+          <div class="text-wrapper_14 flex-col"><span class="text_31">查看详情</span></div>
         </div>
       </div>
-      <div class="image-text_5 flex-row justify-between">
-        <div class="image-wrapper_6 flex-col">
+      <div class="image-text_1 flex-row justify-between">
+        <div class="image-wrapper_2 flex-col">
           <img
-              class="image_5"
+              class="image_1"
               referrerpolicy="no-referrer"
               src="./assets/img/SketchPng06bc4f678d176608001bfd52d2ab274646fa30a6ad261514ae7a7a5765b8f183.png"
           />
         </div>
-        <div class="box_9 flex-col">
-          <div class="text-group_5 flex-col justify-between">
-            <div class="text-wrapper_23 flex-row justify-between">
-              <span class="text_49">设计篇章：让空间充满设计感的几个方法</span>
-              <span class="text_50">4-11/2022</span>
+        <div class="box_4 flex-col">
+          <div class="text-group_1 flex-col justify-between">
+            <div class="text-wrapper_12 flex-row justify-between">
+              <span class="text_26">装修小知识：房间里太潮，可以这么做，避免损坏家居</span>
+              <span class="text_27">5-23/2022</span>
             </div>
-            <span class="text_51">
-            每克此术复争知无层进方海感易准区风口选成千次开是即机转土议年证采完阶红间地第布容海须给政决任据市选头先。经种连组最二月风石重论力清县原活张技被四务共电吗看过卡高考则属声每时市头只。
+            <span class="text_28">
+            每克此术复争知无层进方海感易准区风口选成千次开是即机转土议年证采完阶红间地第布容海须给政决任据市选头先。经种连组最二月风石重论力清县原活张技被四务共电则属声每时市头只。
           </span>
-            <div class="text-wrapper_24 flex-row justify-between">
-              <span class="text_52">软装</span>
-              <span class="text_53">设计</span>
+            <div class="text-wrapper_13 flex-row justify-between">
+              <span class="text_29">软装</span>
+              <span class="text_30">知识</span>
             </div>
           </div>
-          <div class="group_7 flex-col"></div>
-          <div class="group_8 flex-col"></div>
-          <div class="text-wrapper_25 flex-col"><span class="text_54">查看详情</span></div>
+          <div class="box_5 flex-col"></div>
+          <div class="box_6 flex-col"></div>
+          <div class="text-wrapper_14 flex-col"><span class="text_31">查看详情</span></div>
         </div>
       </div>
       <div class="section_13 flex-row">
@@ -266,7 +270,7 @@
 
 
 
-    <Footer></Footer>
+    <Footer ref="footer"></Footer>
   </div>
 </template>
 <script>
@@ -280,7 +284,12 @@ export default {
       constants: {}
     };
   },
-  methods: {}
+  methods: {
+    scrollToBottom() {
+      console.log(this.$refs.footer.$refs.footer)
+      this.$refs.footer.$refs.footer.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 };
 </script>
 <style scoped lang="css" src="./assets/index.css" />

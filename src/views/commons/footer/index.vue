@@ -1,5 +1,5 @@
 <template>
-  <div class="group_28 flex-col" ref="bottom">
+  <div class="group_28 flex-col" ref="footer">
     <div class="szh_group1 flex-col">
       <div class="text-wrapper_12 flex-row">
         <span class="text_63">孙中旗</span>

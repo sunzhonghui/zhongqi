@@ -9,13 +9,13 @@
           <router-link  class="text_4" to="/">首页｜HOME</router-link>
         </div>
         <div class="text-wrapper_1">
-          <router-link class="text_4" to="/xiangmu">项目｜WORK</router-link>
+          <router-link class="text_4" to="/work">项目｜WORK</router-link>
         </div>
         <div class="text-wrapper_1">
-          <router-link class="text_4" to="zhishi">知识｜ARTICLE</router-link>
+          <router-link class="text_4" to="/article">知识｜ARTICLE</router-link>
         </div>
         <div class="text-wrapper_1">
-          <router-link class="text_4" to="wode">关于我｜ME</router-link>
+          <router-link class="text_4" to="/me">关于我｜ME</router-link>
         </div>
       </div>
     </div>
@@ -68,32 +68,6 @@ export default {
   line-height: 28px;
 }
 
-.text_2 {
-  width: 97px;
-  height: 22px;
-  overflow-wrap: break-word;
-  color: rgba(23, 53, 103, 1);
-  font-size: 16px;
-
-  font-weight: 500;
-  text-align: left;
-  white-space: nowrap;
-  line-height: 22px;
-  margin: 37px 0 0 307px;
-}
-
-.text_3 {
-  width: 98px;
-  height: 22px;
-  overflow-wrap: break-word;
-  color: rgba(23, 53, 103, 1);
-  font-size: 16px;
-;
-  text-align: left;
-  white-space: nowrap;
-  line-height: 22px;
-  margin: 37px 0 0 77px;
-}
 
 .text-wrapper_1 {
   width: 160px;

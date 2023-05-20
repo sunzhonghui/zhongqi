@@ -33,6 +33,7 @@
 .page {
   position: relative;
   max-width: 100%;
+  min-width:1440px;
   width: 100vw; /* 视口宽度的100% */
   margin: 0; /* 移除默认的外边距 */
   padding: 0; /* 移除默认的内边距 */
@@ -52,6 +53,8 @@
   background-color: rgba(23, 53, 103, 1);
   height: 426px;
   width: 100%;
+  position: relative;
+  z-index: 9999;
 }
 
 .text-wrapper_1 {
@@ -968,6 +971,7 @@
 }
 
 .image_4 {
+  cursor: pointer;
   position: absolute;
   left: 991px;
   top: 357px;

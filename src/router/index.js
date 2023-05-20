@@ -8,28 +8,25 @@ import shouye from '../views/shouye/index.vue'
 Vue.use(VueRouter)
 
 const routes = [
-    {
-    path: '/',
-    redirect: "/shouye"
-  },
+
   {
-    path: '/xiangmu',
-    name: 'xiangmu',
+    path: '/work',
+    name: 'work',
     component: xiangmu
   },
   {
-    path: '/wode',
-    name: 'wode',
+    path: '/me',
+    name: 'me',
     component: wode
   },
   {
-    path: '/zhishi',
-    name: 'zhishi',
+    path: '/article',
+    name: 'article',
     component: zhishi
   },
   {
-    path: '/shouye',
-    name: 'shouye',
+    path: '/',
+    name: 'home',
     component: shouye
   }
 ]

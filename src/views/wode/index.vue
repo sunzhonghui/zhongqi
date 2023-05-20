@@ -146,7 +146,7 @@
             </div>
           </div>
         </div>
-        <div class="image-text_2 flex-row justify-between">
+        <div class="image-text_2 flex-row justify-between" >
           <span class="text-group_5">查看更多</span>
           <img
               class="thumbnail_5"
@@ -157,7 +157,7 @@
 
       </div>
     </div>
-    <Footer></Footer>
+    <Footer ref="footer"></Footer>
   </div>
 </template>
 <script>
@@ -207,12 +207,8 @@ export default {
   },
   methods: {
     scrollToBottom() {
-      // 使用 scrollIntoView 方法
-      // this.$refs.bottom 是一个引用到页面底部元素的引用
-      // this.$refs.bottom.scrollIntoView({ behavior: 'smooth' });
-
-      // 或者使用 scrollTo 方法
-      window.scrollTo(0,document.querySelector("body").scrollHeight);
+      console.log(this.$refs.footer.$refs.footer)
+      this.$refs.footer.$refs.footer.scrollIntoView({ behavior: 'smooth' });
     }
   }
 };
